@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>24G Mini Video Player</title>
+	  <script type = "text/javascript" src = "program.js" ></script>
+	  <link rel = "stylesheet" type = "text/css" href = "style.css">
+   </head>
+	
+   <body>
+   <!-- Header 1: Name is Hard Coded -->
+   <table bgcolor = "#009DDB" width = "100%" >
+         <tr>
+            <td padding-left = "3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <font size = "5" color = "#EBEBEB" class = "hed1">Welcome<div class = hed1_in>, Prateek</div></font>
+            </td>
+         </tr>
+      </table>
+	  
+	<!-- Header 2: 24G logo -->
+      <table bgcolor = "#393C3E" width = "100%" class = "c1">
+         <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href = "https://www.24g.com/" target = "_self"><img src = "24g_logo.svg" alt = "24G" width = "7%"/></a>
+			   <font face = "Century Gothic" size = "6" color = "#EBEBEB" class = "hed2" style="vertical-align:0.35cm";>&nbsp;&nbsp;VIDEO PLAYER</font>
+            </td>
+         </tr>
+      </table>
+	  <br/>
+	<!-- Body: Video Player -->  
+	  <table border = "0" cellspacing = "5" height = "300" width = "70%" align = "center" cellpadding = "8">
+		 <tr>
+			<td colspan = "2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<font size = "5" color = "#393C3E" id = "vid_title" class = "vid_title">CES Overview</b></font>
+			</td>
+         </tr>
+         <tr>
+			<td rowspan = "3" align = "center">
+				<video width="900" height="500" controls id="my_video">
+				<source src = "https://static-email-hosting.s3.amazonaws.com/24G_Test_Project/videos/ces_overview.mp4"  type="video/mp4">
+				</video>
+			</td>
+            <td width = "20" height = "40">
+			
+			<a href="#" onclick="changeSource(mylink[0])">
+			<img src = "https://static-email-hosting.s3.amazonaws.com/24G_Test_Project/videos/who_is_24g.jpg" alt = "Who is 24G?" title = "Who is 24G?" border = "0" width="300" height="150"/>
+			</td>
+         </tr>
+         <tr>
+            <td>
+			<a href="#" onclick="changeSource(mylink[1])"> 
+			<img src = "https://static-email-hosting.s3.amazonaws.com/24G_Test_Project/videos/ces_overview.jpg" alt = "CES Overview" title = "CES Overview" border = "0" width="300" height="150"/>
+			</td>
+         </tr>
+         <tr>
+            <td colspan = "3">
+			<a href="#" onclick="changeSource(mylink[2])"> 
+			<img src = "https://static-email-hosting.s3.amazonaws.com/24G_Test_Project/videos/future_of_drones.jpg" alt = "Future of Drones" title = "Future of Drones" border = "0" width="300" height="150"/>
+			</td>
+         </tr>
+		 <tr>
+            <th><h3><span id = "view1" class = "view">0</span>&nbsp;<font class = "view1">views</font>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" onclick="like()">
+			<img src = "thumbs_up.svg" alt = "Like" title = "Like" width = "2%"/></a>&nbsp;<span id = "like1" class = "like">0</span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" onclick="dislike()">
+			<img src = "thumbs_down.svg" alt = "Dislike" title = "Dislike" width = "2%"/></a>&nbsp;<span id = "dislike1" class = "dislike">0</span></h3><hr width="92%"/></th>
+			
+         </tr>
+      </table>
+      
+	  <table width = "100%">
+         <tr>
+            <td align = "center">
+               <img src = "powered_by_24g.svg" alt = "footer" width = "150" height = "100"/>
+            </td>
+         </tr>
+      </table>
+	  
+   </body>
+	
+</html>

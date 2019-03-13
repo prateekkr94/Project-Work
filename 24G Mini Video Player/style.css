@@ -1,0 +1,63 @@
+.c1{
+   padding: 10px;
+}
+
+@font-face {
+    font-family: BRANDON_LIGHT;
+    src: url("BRANDON_LIGHT.otf");
+}
+
+@font-face {
+    font-family: BRANDON_MED;
+    src: url("BRANDON_MED.otf");
+}
+
+@font-face {
+    font-family: BRANDON_REG;
+    src: url("BRANDON_REG.otf");
+}
+
+@font-face {
+    font-family: BRANDON_BLD;
+    src: url("BRANDON_BLD.otf");
+}
+
+@font-face {
+    font-family: BRANDON_BLK;
+    src: url("BRANDON_BLK.otf");
+}
+
+.hed1{
+   font-family: BRANDON_LIGHT;
+}
+
+.hed1_in{
+   font-family: BRANDON_BLD;
+   display:inline-block;
+}
+
+.hed2{
+   font-family: BRANDON_REG;
+}
+
+.vid_title{
+   font-family: BRANDON_MED;
+}
+
+.like{
+   color: #FAA61A;
+   font-family: BRANDON_MED;
+}
+
+.dislike{
+   color: #FAA61A;
+   font-family: BRANDON_MED;
+}
+
+.view{
+   font-family: BRANDON_LIGHT;
+}
+
+.view1{
+   font-family: BRANDON_LIGHT;
+}

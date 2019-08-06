@@ -9,9 +9,9 @@ This project is a basic Login and Signup Screen and can be used as an entry poin
 - I have just uploaded the codes and assets which I have used, so just update the following folders in your project directory. ![directory](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Directory.PNG)
 
 ## Screens
-- The Application Homepage. ![Homepage](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Screen1.PNG)
-- Sign in screen. ![signin](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Signin.PNG)
-- Sign up screen. ![signup](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Signup.PNG)
+![Homepage](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Screen1.PNG)
+![signin](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Signin.PNG)
+![signup](https://github.com/prateekkr94/Project-Work/blob/master/Flutter%20Login%20UI/Screens/Signup.PNG)
 
 ## Further Resources
 

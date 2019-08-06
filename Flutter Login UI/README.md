@@ -1,9 +1,13 @@
 # Flutter Login and Signup UI
+
 This project is a basic Login and Signup Screen and can be used as an entry point for an application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- [Inorder to setup Flutter on your PC](https://flutter.dev/docs/get-started/editor?tab=vscode)
+
+
+## Further Resources
 
 A few resources to get you started if this is your first Flutter project:
 

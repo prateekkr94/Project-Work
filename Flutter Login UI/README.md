@@ -4,7 +4,8 @@ This project is a basic Login and Signup Screen and can be used as an entry poin
 
 ## Getting Started
 
-- [Inorder to setup Flutter on your PC](https://flutter.dev/docs/get-started/editor?tab=vscode)
+- [Setup Flutter on your PC](https://flutter.dev/docs/get-started/editor?tab=vscode)
+- Next create a Flutter Project
 
 
 ## Further Resources

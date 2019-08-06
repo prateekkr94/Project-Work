@@ -1,6 +1,5 @@
-# flutter_app_v2
-
-A new Flutter application.
+# Flutter Login and Signup UI
+This project is a basic Login and Signup Screen and can be used as an entry point for an application.
 
 ## Getting Started
 

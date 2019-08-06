@@ -58,7 +58,7 @@ class Login extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 15.0, bottom: 30.0),
                 child: new Text(
-                  "MTU Healthcare API",
+                  "My Application",
                   style: new TextStyle(fontSize: 35.0),
                 ),
               )

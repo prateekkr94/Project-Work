@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MTU Healthcare Application',
+      title: 'My Application',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'Gochi'),
       home: Login(),

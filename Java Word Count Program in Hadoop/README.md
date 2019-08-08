@@ -24,7 +24,7 @@
 ![input file](https://github.com/prateekkr94/Project-Work/blob/master/Java%20Word%20Count%20Program%20in%20Hadoop/Screens/12.png)
 - The contents of the input file
 ![content](https://github.com/prateekkr94/Project-Work/blob/master/Java%20Word%20Count%20Program%20in%20Hadoop/Screens/13.png)
-- Run the code
+- Run the code <br />
 ![run code](https://github.com/prateekkr94/Project-Work/blob/master/Java%20Word%20Count%20Program%20in%20Hadoop/Screens/14.png)
 ![code processing](https://github.com/prateekkr94/Project-Work/blob/master/Java%20Word%20Count%20Program%20in%20Hadoop/Screens/15.png)
 - Output directory
